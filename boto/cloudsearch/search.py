@@ -38,7 +38,7 @@ class CommitMismatchError(Exception):
 
 class SearchResults(object):
 
-   def __init__(self, **attrs):
+    def __init__(self, **attrs):
         self.rid = attrs['info']['rid']
         # self.doc_coverage_pct = attrs['info']['doc-coverage-pct']
         self.cpu_time_ms = attrs['info']['cpu-time-ms']
